@@ -12,6 +12,16 @@
 <body>
   <div class="container">
     <h1>Lista Hotel</h1>
+    <h3>Filtri</h3>
+    <form action="filters.php" method="$_GET">
+      <div class="form-check">
+        <input name="parcheggio" class="form-check-input" type="checkbox" value="" id="checkDefault">
+        <label class="form-check-label" for="checkDefault">
+          Parcheggio
+        </label>
+      </div>
+    </form>
+
     <table class="table">
       <thead>
         <tr>
